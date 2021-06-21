@@ -2,7 +2,7 @@
 
 ## LICENSE
 
-![FelipePDS-avatar](https://avatars.githubusercontent.com/u/64941387?v=4)
+<img width="100px" src="https://avatars.githubusercontent.com/u/64941387?s=400&u=a9c0d7a657b0b0b644d41cd88966e0a89d0a67a6&v=4"/>
 
 This repository was made by [FelipePDS](https://felipepds.github.io/) :heart:
 
