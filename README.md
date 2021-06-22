@@ -12,6 +12,6 @@
   <img src="https://img.shields.io/static/v1?label=+&message=felipepdasilva66@gmail.com&color=EA4335&style=flat&logo=gmail&logoColor=white" alt="Gmail" />
 </p>
 
-<p align="center">Project developed during <a href="https://rocketseat.com.br/">rocketseat</a>'s NextLevelWeek event :rocket:</p>
+<p align="center">Project developed during the Next-Level-Week-6 event on <a href="https://rocketseat.com.br/">rocketseat</a>'s Node.js track :rocket:</p>
 
 <p align="center"><a href="https://github.com/FelipePDS/nlw-valoriza/blob/main/LICENSE">MIT LICENSE</a> &bull; FelipePDS</p>
