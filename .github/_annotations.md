@@ -115,3 +115,17 @@ Desfazer migration:
 `$ yarn add uuid`
 
 `$ yarn add @types/uuid -D`
+
+## Aula 03 - In Orbit
+
+### Tratativas de erros
+
+**Middlewares**
+
+São interceptadores de uma requisição (Interrompem a resposta que o servidor normalmente daria em uma requisição)
+
+Pra usá-lo nas tratativas de erros, ele vai pegar a resposta que está vindo através das rotas e fazer a tratativa para verificar se tem algum erro.
+
+**Adicionando biblioteca que vai conseguir lidar com os erros em funções assíncronas**
+
+`$ yarn add express-async-errors`
