@@ -129,3 +129,31 @@ Pra usá-lo nas tratativas de erros, ele vai pegar a resposta que está vindo at
 **Adicionando biblioteca que vai conseguir lidar com os erros em funções assíncronas**
 
 `$ yarn add express-async-errors`
+
+## Aula 04 - Landing
+
+**JWT (JSON Web Tokens)**
+
+É um padrão de Token onde é possível passar propriedades para ele.
+
+Divisão da geração de Token (3 partes)
+
+- Header: Tipo de Token - Algoritmo usando para fazer a criptografia dos dados e gerar Token
+- Payload: Informações para serem passadas dentro do Token (criptografadas)
+- Verify Signature: Forma que ele cria a verificação - Ele recebe uma informação, que é uma chave secreta para gerar o Token, verificar se ele está correto
+
+**Adicionando o jsonwebtoken**
+
+`$ yarn add jsonwebtoken`
+
+Tipagens para ambiente de desenvolvimento:
+
+`$ yarn add @types/jsonwebtoken -D`
+
+**Adicionando gerador de criptografia**
+
+`$ yarn add bcryptjs`
+
+Tipagens para ambiente de desenvolvimento:
+
+`$ yarn add @types/bcryptjs -D`
