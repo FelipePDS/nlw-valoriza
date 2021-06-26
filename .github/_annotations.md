@@ -157,3 +157,24 @@ Tipagens para ambiente de desenvolvimento:
 Tipagens para ambiente de desenvolvimento:
 
 `$ yarn add @types/bcryptjs -D`
+
+## Aula 05 - Surface Exploration
+
+### Autenticação a partir do token
+
+**Bearer Token**
+
+- É um tipo de autorização que é utilizado para passar o token de validação de alguma coisa (nesse caso o de login do usuário)
+- O token será recebido pela API através de Request headers authorization, assim é possível manipulá-lo e conseguir as informações do usuário a partir dele.
+
+**Configurando a manipulação das tipagens de packages (Express)**
+
+Para realizar isso é necessário configurar o tsconfig.json:
+
+`"typeRoots": ["./src/@types"]`
+
+**Adicionando biblioteca para transformar uma classe (class-transformer)**
+
+`$ yarn add class-transformer`
+
+IMPLEMENTAR UM created_by na tabela de tags
