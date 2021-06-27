@@ -33,7 +33,7 @@ class AuthenticateUserService {
         email: user.email
       }, 
 
-      'cd865d0b02df14f24bb6c82b2cec48bc',
+      process.env.SECRET_KEY,
 
       {
         subject: user.id,
