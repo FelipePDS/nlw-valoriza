@@ -45,11 +45,34 @@
 </ul>
 
 <blockquote>
-  Check the file → <kdb><a href="https://github.com/FelipePDS/nlw-valoriza/blob/main/package.json">package.json</a></kdb>
+  Check the file → <kbd><a href="https://github.com/FelipePDS/nlw-valoriza/blob/main/package.json">package.json</a></kbd>
 </blockquote>
 
 <br>
 <h2 id="clone-project">:open_file_folder: CLONE PROJECT</h2>
+
+Download [Git Bash]() and perform the following commands on Git Bash terminal:
+
+``` bash
+# clone project
+$ git clone https://github.com/FelipePDS/nlw-valoriza.git
+
+# open project
+$ cd nlw-valoriza
+```
+
+### Download dependencies
+
+To download the dependencies to develop / run the API, download [Node.js]() and along with it you will have the NPM (Node Package Manager), and if you want to download with another Package Manager, add [Yarn]() (used only by preference)
+
+Perform the following command inside the project directory:
+
+``` bash
+# download dependencies
+$ npm install
+# or
+$ yarn add
+```
 
 <br>
 <h2 id="use-api">:rocket: CONFIGURE AND USE API</h2>
@@ -59,7 +82,9 @@
 
 I made available some notes I made during this NLW-06 event, constituting more of the settings that were made for the API development
 
-> Chech the file → [_annotations.md](https://github.com/FelipePDS/nlw-valoriza/blob/main/.github/_annotations.md)
+<blockquote>
+  Chech the file → <kbd><a href="https://github.com/FelipePDS/nlw-valoriza/blob/main/.github/_annotations.md">_annotations.md</a></kbd>
+</blockquote>
 
 <br>
 <h2 id="license">:pencil: LICENSE</h2>
