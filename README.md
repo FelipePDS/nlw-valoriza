@@ -42,10 +42,10 @@
       <li><a href="https://www.npmjs.com/package/reflect-metadata">Reflect Metadata</a></li>
       <li>ID Generator: <a href="https://www.npmjs.com/package/uuid">UUID</a></li>
   </ul>
-  <li>Cryptor: <a href="">Bcryptjs</a></li>
-  <li>Token generator for login validation: <a href="">JWT (Json Web Token)</a></li>
-  <li>Error handling: <a href="">Express-asyn-erros</a></li>
-  <li>API Access: <a href="">CORS</a></li>
+  <li>Cryptor: <a href="https://www.npmjs.com/package/bcryptjs">Bcryptjs</a></li>
+  <li>Token generator for login validation: <a href="https://jwt.io/introduction">JWT (Json Web Token)</a></li>
+  <li>Error handling: <a href="https://www.npmjs.com/package/express-async-errors">Express-asyn-erros</a></li>
+  <li>API Access: <a href="https://expressjs.com/en/resources/middleware/cors.html">CORS</a></li>
   <li>Tools:</li>
   <ul>
     <li>Code Editor: <a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
@@ -63,7 +63,7 @@
 <br>
 <h2 id="clone-project">:open_file_folder: CLONE PROJECT</h2>
 
-Download [Git Bash]() and perform the following commands on Git Bash terminal:
+Download [Git Bash](https://git-scm.com/downloads) and perform the following commands on Git Bash terminal:
 
 ``` bash
 # clone project
@@ -73,9 +73,9 @@ $ git clone https://github.com/FelipePDS/nlw-valoriza.git
 $ cd nlw-valoriza
 ```
 
-### Download dependencies
+### Download Dependencies
 
-To download the dependencies to develop / run the API, download [Node.js]() and along with it you will have the NPM (Node Package Manager), and if you want to download with another Package Manager, add [Yarn]() (used only by preference)
+To download the dependencies to develop / run the API, download [Node.js](https://nodejs.org/en/download/) and along with it you will have the NPM (Node Package Manager), and if you want to download with another Package Manager, add [Yarn](https://yarnpkg.com/lang/en/docs/install/) (used only by preference)
 
 Perform the following command inside the project directory:
 
@@ -89,7 +89,39 @@ $ yarn add
 <br>
 <h2 id="use-api">:rocket: CONFIGURE AND USE API</h2>
 
+First run the database:
 
+``` bash
+# add database
+$ yarn typeorm migration:run
+# or
+$ npm run typeorm migration:run
+```
+
+<blockquote>
+  Check the file <kbd><a href="https://github.com/FelipePDS/nlw-valoriza/blob/main/ormconfig.json">ormconfig.json</a></kbd> that configures the typeorm (library for database manipulation)
+</blockquote>
+
+Now create an .env file based on the <kbd><a href="https://github.com/FelipePDS/nlw-valoriza/blob/main/.env.example">.env.test</a></kbd> file. In it you will need to put the key inside the variable *SECRET_KEY* to run the token generation for user login validation, for this you can go to the https://www.md5hashgenerator.com/ website and enter the text you want and it will encrypt it.
+
+### Run API
+
+``` bash
+# run API for development
+$ yarn dev
+# or
+$ npm run dev
+```
+
+> The address to request API requests is http://localhost:3000
+> 
+> To change the execution port create the .env file and set a value for the *PORT* variable
+
+### Use API
+
+To see API requests and routes, check out the <kbd><a href="https://github.com/FelipePDS/nlw-valoriza/blob/main/src/routes.ts">routes.ts</a></kbd> file and the controllers it contains.
+
+> Check out the [API usage demo](#how-to-work)
 
 <br>
 <h2 id="learn-more">:mag: LEARN MORE</h2>
