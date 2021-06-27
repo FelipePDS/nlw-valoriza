@@ -1,5 +1,17 @@
 # <h1 align="center">NLW - VALORIZA</h1>
 
+<!-- Breve descrição da API -->
+
+<p align="center">
+    <a href="https://github.com/FelipePDS/nlw-valoriza/blob/main/LICENSE"><img src="https://img.shields.io/github/license/FelipePDS/nlw-valoriza?style=for-the-badge"></a> 
+    <img src="https://img.shields.io/github/last-commit/FelipePDS/nlw-valoriza?style=for-the-badge"> 
+    <img src="https://img.shields.io/github/repo-size/FelipePDS/nlw-valoriza?style=for-the-badge"/><br>
+    <img src="https://img.shields.io/static/v1?label=server&message=express+|+ts-node&color=3178C6&style=for-the-badge&logo=express&logoColor=white">
+    <img src="https://img.shields.io/static/v1?label=node&message=v12.18.0&color=339933&style=for-the-badge&logo=node.js&logoColor=white"> 
+    <img src="https://img.shields.io/static/v1?label=npm&message=v6.14.4&color=CB3837&style=for-the-badge&logo=npm&logoColor=white"> 
+    <img src="https://img.shields.io/static/v1?label=yarn&message=v1.22.5&color=2C8EBB&style=for-the-badge&logo=yarn&logoColor=white">
+</p>
+
 <br>
 
 ## :pushpin: TOPICS
@@ -76,6 +88,8 @@ $ yarn add
 
 <br>
 <h2 id="use-api">:rocket: CONFIGURE AND USE API</h2>
+
+
 
 <br>
 <h2 id="learn-more">:mag: LEARN MORE</h2>
